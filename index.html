@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="p5jsstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <title>My p5.js Projects</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+<body>
+    <div class="header">
+        <h1>My p5.js Projects</h1>
+        <h3>These are all the coding exercises I made to practice p5.js. Some of them were school projects and some of them are just proof that I have way too much freetime.</h3>
+    </div>
+    <div class="project">
+        <iframe src="https://editor.p5js.org/AlizValko/full/OtraUoB5m"></iframe>
+    </div>
+    <div class="projectDescription" style="width: 30%">
+        <h2><a class="titleLink" href="https://editor.p5js.org/AlizValko/full/OtraUoB5m">Abstract Clock</a></h2>
+        <h3>Dan Shiffman from the channel <a href="https://www.youtube.com/@TheCodingTrain" target="_blank">The Coding Train</a> said that 'A great exercise that you can do to express your creativity, is invent a new way of showing time.' so that is what I did in this very simple project. The hours, minutes and seconds are represented by different colored bubbles and their size depends on what time it is at the moment.</h3>
+    </div>
+    <hr>
+    <div class="projectDescription">
+        <h2><a class="titleLink" href="https://editor.p5js.org/AlizValko/full/1ZXmWrqy1" target="_blank">ASCII Camera</a></h2>
+        <h3>I was inspired to make this project when I saw <a>this</a> video of The Coding Train in which he explained how we can get the RGBA values of each pixel from a surface in this case the captured video.</h3>
+        <h3>So the way this works is: the image the camera captures is scaled down in resoulution, then an array is crated storing the RGBA values of each pixel. I avaraged the RGB values of each to get a grayscale version of the image, then compared the brightness of each pixel and assigned a letter to it. The brighter the pixel the less "ink" is needed for the assigned letter. So the bright pixels are either a colon, a semicolon or a period, the darker ones are M, N, W or X and the midtones are k, c, d or x.</h3>
+    </div>
+    <div class="project">
+        <a href="https://editor.p5js.org/AlizValko/full/1ZXmWrqy1" target="_blank"><img class="image" src="asciicam.PNG"></a>
+    </div>
+    <hr>
+    <div class="project">
+        <a href="https://editor.p5js.org/AlizValko/full/4hN7kTkdR" target="_blank"><img class="image" src="eyegame.PNG"></a>
+    </div>
+    <div class="projectDescription">
+        <a class="titleLink" href="https://editor.p5js.org/AlizValko/full/4hN7kTkdR" target="_blank"><h2>Eye game</h2></a>
+        <h3>For our first challenge, we were asked to create an interactive game or
+            demonstration that uses the camera's view as its primary input. In one of the lectures,
+            we were shown a code snippet that made a two-dimensional ball bounce around on
+            the screen. I found this code to be easy to understand and the bounce was satisfying
+            to watch, which inspired my (first) design. I thought about how I could merge the ball
+            animation with facial features. What I came up with is the following: The user's
+            eyeballs have fallen out of their face, and they have to catch them with their empty
+            eye sockets to win. To add to the morbid theme, I also added droplets of blood that
+            appear whenever the balls touch the side of the screen.</h3>
+    </div>
+    <hr>
+    <div class="projectDescription">
+        <h2><a class="titleLink" href="https://editor.p5js.org/AlizValko/full/Kwdp0QhIX" target="_blank">Clock game</a></h2>
+        <h3>Since the previous code only uses the position of the eyes, I was not satisfied with it
+            completely. I made another interactive game which uses the PoseNet model, the one
+            we learned about in the third lecture. This game shows a random time of the day and
+            asks the user to aim his/her hands in the directions where an analogue clock's hands
+            would go. It sounds easy at first but what makes it a bit challenging is that the view of
+            the camera is flipped.</h3>
+    </div>
+    <div class="project">
+        <a href="https://editor.p5js.org/AlizValko/full/Kwdp0QhIX" target="_blank"><img class="image" src="clockgame.PNG"></a>
+    </div>
+    <hr>
+    <div class="project">
+        <a href="https://vocal-paletas-b8aa3f.netlify.app/" target="_blank"><img class="image" src="Ch2.PNG"></a>
+    </div>
+    <div class="projectDescription">
+        <a class="titleLink" href="https://vocal-paletas-b8aa3f.netlify.app/" target="_blank"><h2>Abstract clock again</h2></a>
+        <h3>After I handed in the previous two projects the funniest thing happened. I was told that the next project is going to be making a clock! I decided not to start a new clock but to improve on my already existing bubble clock. So I added hands and made it interactive; the user can press 'P' to make the bubbles pop (then 'P' again to bring them back), and 'F' to make them float.</h3>
+    </div>
+</body>
+</html>
